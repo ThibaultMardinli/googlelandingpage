@@ -1,7 +1,25 @@
+body{
+font-size: 14px;
+font-family: arial,sans-serif;
+color: #202124;
+display: flex;
+height: 100%;
+}
+
+* { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
 #nav {
 display: flex;
 justify-content: right; 
-align-items: center
+align-items: center;
 }
 
 .gmail{
@@ -9,13 +27,12 @@ align-items: center
 }
 
 #main {
-
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
 margin-top: 180px;
-margin-bottom: 100px;
+margin-bottom: 250px;
 min-height: 500P;
 }
 
@@ -30,8 +47,19 @@ min-height: 500P;
   gap: 20px;
 }
 
-.btn{
-padding: 8px 15px;
+button{
+  margin: 5px;
+  padding: 10PX;
+  border: none;
+  border-radius: 5px;
+  background-color: #F8F9FA;
+}
+
+button:hover {
+  padding: 15PX;
+  border: solide grey;
+  background-color: #F8F9FA;
+
 }
 
 .search-bar {
@@ -40,12 +68,17 @@ padding: 8px 15px;
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.247);
   border-radius: 40px ;
-  box-shadow: 1px 1px 5px #888;
+  
   margin-bottom: 20px;
+}
+
+.search-bar:hover{
+  box-shadow: 1px 1px 5px #888;
 }
 
 input{
   border: none;
+  color: none;
   height: 25px;
   width: 420px;
 }
@@ -53,27 +86,66 @@ input{
 
 #footer{
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
+  background-color: #F2F2F2;
+  text-decoration: none;
+  width: 100%;
+  height: 150px;
+}
+
+.footer-list {
+  display: flex;
   background-color: #F2F2F2;
   text-decoration: none;
   height: 150px;
+  justify-content:space-between;
+  padding: 20px;
+}
+
+.left-align .center .right{
+  display: flex;
+  }
+
+.left-align ul {
+  display: flex;
+}
+
+.right ul {
+  display: flex;
+}
+
+.right ul li { 
+  padding: 15px
+}
+
+.left-align ul li {
+  padding: 15px;
+}
+
+.center li{
+  display: flex;
 }
 
 a{
   text-decoration: none;
   color: grey;
-  margin: 20px;
-  padding: 20
+  margin: 5px;
 }
 
+a:hover{
+  text-decoration: underline;
+
+}
 .France{
 padding: 10px;
-color: grey
+color: grey;
+border-bottom: grey 1px solid
 }
 
 
-.wrapper{
+.wrapper {
   min-width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -82,3 +154,4 @@ color: grey
 .logo{
   margin-bottom: 20px;
 }
+
