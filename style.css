@@ -1,0 +1,84 @@
+#nav {
+display: flex;
+justify-content: right; 
+align-items: center
+}
+
+.gmail{
+  margin: 10px;
+}
+
+#main {
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+margin-top: 180px;
+margin-bottom: 100px;
+min-height: 500P;
+}
+
+
+.button {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 20 20 20 2O;
+  border: 0;
+  border-radius: 25%;
+  gap: 20px;
+}
+
+.btn{
+padding: 8px 15px;
+}
+
+.search-bar {
+  padding: 5px;
+  border: 0.1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.247);
+  border-radius: 40px ;
+  box-shadow: 1px 1px 5px #888;
+  margin-bottom: 20px;
+}
+
+input{
+  border: none;
+  height: 25px;
+  width: 420px;
+}
+
+
+#footer{
+  display: flex;
+  flex-direction: column;
+  background-color: #F2F2F2;
+  text-decoration: none;
+  height: 150px;
+}
+
+a{
+  text-decoration: none;
+  color: grey;
+  margin: 20px;
+  padding: 20
+}
+
+.France{
+padding: 10px;
+color: grey
+}
+
+
+.wrapper{
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo{
+  margin-bottom: 20px;
+}
